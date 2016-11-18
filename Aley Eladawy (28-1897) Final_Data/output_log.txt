@@ -1,0 +1,42 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GPU (ID=0x134b)
+    Vendor:   NVIDIA
+    VRAM:     996 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.074 seconds
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\aeeladawy\Documents\MiniProject2\Aley Eladawy (28-1897) Final_Data\Managed\System.dll (this message is harmless)
+desktop: 3000x2000 60Hz; virtual: 3000x2000 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.858667 ms
+ConvexHullBuilder: convex hull has more than 255 polygons!
+ 
+(Filename: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp Line: 1486)
+
+Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+ 
+(Filename: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp Line: 266)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "Toy elifant N131010 (1)/GeoSphere2", Mesh asset path "" Mesh name "GeoSphere2"
+ 
+(Filename:  Line: 0)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 10e4 -> priority: 1 
